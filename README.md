@@ -1,7 +1,8 @@
 # buckeye-apex
 
 A Rust bot for the Builders Buildathon Mech Royale challenge on the Ohio State campus.
-I wrote buckeye-apex with Claude.
+I wrote buckeye-apex with Claude. During development, I used reinforcement learning algorithms
+to develop the decision rules and tune the numerical thresholds used by the bot.
 
 The bot combines a geometric world model, opponent memory, weapon-specific aiming, and a
 rule-based policy. It runs locally as a static binary in a `FROM scratch` Docker image.
